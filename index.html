@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>À votre écoute</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <h1>À votre écoute</h1>
+  <p>Un espace humain, bienveillant et sans jugement</p>
+</header>
+
+<section class="intro">
+  <h2>Parlez librement</h2>
+  <p>
+    Ici, vous pouvez parler de ce que vous voulez, sans être jugé.
+    Une présence humaine pour rompre la solitude.
+  </p>
+</section>
+
+<section class="tarifs">
+  <h2>Nos formules</h2>
+
+  <div class="cards">
+    <div class="card">15 min<br><strong>2 €</strong></div>
+    <div class="card">30 min<br><strong>5 €</strong></div>
+    <div class="card">60 min<br><strong>15 €</strong></div>
+  </div>
+</section>
+
+<section class="reservation">
+
+  <h2>Réserver un appel</h2>
+
+  <label>Durée</label>
+  <select id="duration">
+    <option value="15">15 min - 2€</option>
+    <option value="30">30 min - 5€</option>
+    <option value="60">60 min - 15€</option>
+  </select>
+
+  <label>Date</label>
+  <input type="date" id="date">
+
+  <label>Heure</label>
+  <input type="time" id="time">
+
+  <label>Téléphone</label>
+  <input type="tel" id="phone">
+
+  <label>Email</label>
+  <input type="email" id="email">
+
+  <button onclick="book()">Payer et réserver</button>
+
+</section>
+
+<footer>
+  <p>© 2026 À votre écoute - Service d’écoute bienveillante</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
